@@ -50,6 +50,7 @@ set /p "confirm=Co muon remove key QJ7KX? [Y/N]: "
 if /I "%confirm%"=="Y" (
     echo Dang remove key QJ7KX...
     cscript //nologo OSPP.VBS /unpkey:QJ7KX
+    cscript //nologo OSPP.VBS /rearm
     echo.
     echo Da yeu cau remove key QJ7KX.
     echo Khong thuc hien /rearm.
