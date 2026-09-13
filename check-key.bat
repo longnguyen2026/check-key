@@ -53,7 +53,7 @@ if /I "%confirm%"=="Y" (
     cscript //nologo OSPP.VBS /rearm
     echo.
     echo Da yeu cau remove key QJ7KX.
-    echo Khong thuc hien /rearm.
+    echo Da thuc hien clear
 ) else (
     echo Bo qua, khong thay doi key.
 )
